@@ -11,7 +11,7 @@ function About() {
   const [bannerURL, setBannerURL] = React.useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/data")
+    fetch("https://tourandtravel.onrender.com/data")
       .then((Response) => Response.json())
       .then((data) => {
         setBannerURL(data);
