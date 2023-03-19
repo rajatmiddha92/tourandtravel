@@ -1,0 +1,40 @@
+#client-card{
+    height:25em;
+    width: 22em;
+    border-radius: 20px;
+    margin: 28px;
+}
+#client-btn{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:22px;
+    border-radius: 10px;
+    border:1px solid transparent;
+    box-shadow: 0px 0px 15px #1d719280;
+}
+
+#cb-client{
+    line-height: 10px;
+}
+#cb-client>p{
+    font-size: 14px;
+    line-height: 15px;
+    color: gray;
+}
+#client-img{
+    border-radius: 50px;
+    box-shadow: 0px 6px 8px #888888ab;
+
+}
+#star-ratings{
+  display: flex;
+  justify-content: center;
+}
+
+#star-rating{
+    color: #0081B4;
+    font-size: 30px;
+}

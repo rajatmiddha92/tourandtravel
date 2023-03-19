@@ -1,0 +1,33 @@
+#card-two{
+    display: flex;
+    border-radius:6px;
+    font-family: "Montserrat";
+    width:22em;
+    background-color:transparent;
+    margin:50px 30px 10px 30px ;
+}
+#cb-two{
+    margin-top: 21em;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left:5px;
+    margin-right:5px;
+    font-family: "Montserrat";
+}
+#star-exp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+#exp-btn{
+    font-size: 12px;
+    background-color:#0081B4;
+    color:white;
+    font-weight: 600;
+    border:1px solid transparent;
+    border-radius: 5px;
+    width:9em;
+    cursor: pointer;
+
+}

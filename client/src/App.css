@@ -1,0 +1,13 @@
+
+body{
+  background: url("https://lymphomacoalition.org/wp-content/uploads/Asia-Pacific-Basic-Map-1.png") no-repeat,linear-gradient(to right,rgb(180, 208, 218),rgba(186, 214, 224, 0.8),rgba(186, 214, 224, 0.6),rgba(186, 214, 224, 0.4));
+  background-size:100vw  ;
+  font-family: "Montserrat";
+
+ 
+}
+button:active:not(.filter-btn,#card-btn,#client-btn){
+  transform: scale(0.9);
+  transition-duration: 0.1s;
+}
+

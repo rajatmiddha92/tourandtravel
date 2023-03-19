@@ -1,0 +1,144 @@
+
+#footer-div{
+    display: flex;
+    justify-content: center;
+    background-color: #0081B4;
+    position: absolute;
+    width: 100%;
+    margin-top: 14em;
+}
+#banner-txt>h2{
+    font-size: 32px;
+    margin-top:1px ;
+}
+#dwnld-bnr{
+    background-color: black;
+    color: white;
+    position: absolute;
+    height:38%;
+    width: 82%;
+    bottom: 350px;
+    border-radius: 10px;
+    padding: 50px;
+}
+#bnr-content{
+    display: flex;
+    
+}
+#phn-container{
+    position: absolute;
+    right: 50px;
+    bottom:12px;
+    background: linear-gradient(to right,rgb(180, 208, 218),rgb(186, 214, 224));
+    width:15em;
+    height:15em;
+    border-radius: 100%;
+}
+#phn{
+    position: absolute;
+    bottom: 10px;
+    left:-30px;
+    transform:rotate(10deg);
+ 
+}
+
+
+#dwnld-btn{
+    display: flex;
+    align-items: center;
+    background: #0081B4;
+    border: 2px solid white ;
+    border-radius: 5px;
+    padding:10px;
+    width:12em;
+    height:4em;
+    margin-top: 40px;
+}
+
+#btn-text{
+ font-size: 12px;
+ line-height: 4px;
+ color: white;
+ margin-left: 10px;
+ text-align: start;
+}
+
+#footer{
+    width:90%;
+    color:white;
+}
+#continents-f{
+    background: url("https://png.pngitem.com/pimgs/s/85-857134_continents-50opacity1-world-map-with-curves-hd-png.png") no-repeat;
+    background-size: 100% 100%;
+    mix-blend-mode: multiply;
+    opacity: 0.6;
+    height: 100%; 
+    width:100%;
+    position: absolute;
+}
+#f-body{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding:100px 0px 50px 0px;
+}
+#flogo-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#flogo-div>p{
+    font-size: 14px;
+}
+#footer-items{
+    display:flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap:150px;
+   
+}
+.footer-list{
+    line-height: 30px;
+    
+}
+.list-title{
+    font-weight: 600;
+}
+.flist-item{
+    color: white;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+} 
+#icon{
+    padding: 10px;
+}
+hr{
+    border: none;
+    height: 1px;
+    opacity: 0.5 ;
+    background-color: white; 
+}
+#copy-right{
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+}
+@media (min-width: 1024px) {
+    .footer-div {
+        flex-direction: row-reverse;
+        padding: 2rem;
+    }
+
+    .footer-div {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .footer-div {
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+}

@@ -1,0 +1,62 @@
+#filter-div{
+    text-align: center;
+    margin-top: 6em;
+    line-height: 30px;
+    color: rgb(48, 47, 47);
+}
+
+#fbtn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+@media only screen and (max-width: 600px) {
+    #fbtn-div {display: inline;
+    }
+  }
+.filter-btn{
+    background:none;
+    border:1px solid gray;
+    padding:15px;
+    font-size: 16px;
+    width:15em;
+    cursor: pointer;
+    font-weight: bold;
+    color: #0081B4;
+    transition-duration: 0.2s;
+    height: 4em;
+}
+.filter-btn:focus{
+    background: #0081B4;
+    color: white;
+}
+.filter-btn:hover{
+    background: #0081B4;
+    color: white;
+}
+#first-btn{
+    border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+#last-btn{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#slide{
+    display: flex;
+    justify-content: center;
+    margin:40px 0 40px 0;
+}
+.circle-icon{
+    color: white;
+    vertical-align: bottom;
+   }
+.circle-btn{
+   background: none;
+   border:1px solid transparent;
+   cursor: pointer;
+ 
+
+}
+

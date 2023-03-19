@@ -1,0 +1,282 @@
+#homepage {
+  margin: 5em;
+  margin-left: 6em;
+}
+#link-btn {
+  border-radius: 25px;
+  border: 10px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 129, 180, 0.2);
+  width: 8.7em;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  font-family: "Montserrat";
+  color: #0177a5;
+}
+#link-btn:hover {
+  background-color: rgb(0, 129, 180);
+  color: white;
+}
+
+#visit {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+#explore-icon {
+  vertical-align: bottom;
+  font-size: 30px;
+}
+#hp-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hp-txt {
+  font-size: 46px;
+}
+#guy {
+  border-radius: 100%;
+  background-color: rgba(112, 194, 226, 0.1);
+  margin-right: 20px;
+}
+#guy-btn {
+  position: absolute;
+  margin-bottom: 140px;
+  margin-left: 85em;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 9em;
+  font-family: "Montserrat";
+}
+#plane-icon {
+  font-size: 26px;
+  color: #016b96;
+}
+#jakarta {
+  font-size: 12px;
+  padding-left: 3px;
+}
+#ld {
+  color: #056286;
+}
+#dscvr {
+  background: transparent;
+  border: 2px solid #056286;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+#dscvr:hover {
+  background-color: rgb(0, 129, 180);
+  color: white;
+}
+
+.FilterDiv {
+  display: flex;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  border: 2px solid transparent;
+  background: white;
+  border-radius: 6px;
+  padding: 10px;
+  height: 15em;
+  box-shadow: 5px 10px 8px #88888836;
+  margin: 100px 20px 0 20px;
+}
+@media only screen and (max-width: 600px) {
+  .FilterDiv {
+    background: white;
+    width: fit-content;
+    text-align: center;
+    height: fit-content;
+  }
+}
+
+.FiltersNav {
+  font-family: "Montserrat";
+  font-weight: 600;
+  height: 12vh;
+  width: 100%;
+  font-size: 12px;
+  color: #888585;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.filterItems {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  height: 65%;
+  border-radius: 5px;
+  flex-shrink: 1;
+}
+@media only screen and (max-width: 600px) {
+  .filterItems {
+    background: white;
+    width: fit-content;
+    text-align: center;
+    height: fit-content;
+  }
+}
+select {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: left;
+  font-family: "Montserrat";
+  font-size: 15.5px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 3em;
+  color: rgba(90, 89, 89, 0.767);
+}
+@media only screen and (max-width: 600px) {
+  select {
+    background: white;
+    width: fit-content;
+    text-align: center;
+    height: fit-content;
+  }
+}
+select:focus {
+  outline: none;
+}
+
+.when {
+  border: 1px solid grey;
+  border-style: none;
+  text-align: left;
+  font-family: "Montserrat";
+  font-size: 15.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .when {
+      background: white;
+      width: fit-content;
+      text-align: center;
+      height: fit-content;
+    }
+  }
+#promo {
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 100%;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+    #promo{
+      width: fit-content;
+      text-align: center;
+      height: fit-content;
+    }
+  }
+#add-icon {
+  vertical-align: bottom;
+  font-size: 18px;
+  margin-right: 4px;
+}
+#add {
+  background: none;
+  border: 1px solid transparent;
+}
+@media only screen and (max-width: 600px) {
+    #add{
+        position: absolute;
+        top: 1180px;
+    }
+  }
+.promo-btns {
+  font-family: "Montserrat";
+  font-size: 13px;
+  padding: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 3px;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .promo-btns{
+        margin-top: 300px;
+        margin-left: 50px;
+    }
+  }
+#paper-plane {
+  transform: rotate(-45deg);
+  vertical-align: bottom;
+  margin-right: 4px;
+  font-size: 18px;
+}
+#show-flights {
+  background-color: #0081b4;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+#second,
+#third {
+  text-align: center;
+  margin-top: 6em;
+  line-height: 30px;
+  color: rgb(48, 47, 47);
+}
+#cf-container {
+  display: flex;
+  justify-content: center;
+}
+#cf {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6em;
+  background-color: #0081b4;
+  height: 12em;
+  color: white;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 10px;
+  width: 90%;
+}
+#continents {
+  background-size: 100% 100%;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+  height: 32%;
+  right: 350px;
+  width: 30%;
+  position: absolute;
+}
+#cf-text > p {
+  font-size: 12px;
+}
+#contact-us {
+  height: 3em;
+  width: 10em;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  cursor: pointer;
+}

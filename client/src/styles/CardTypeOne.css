@@ -1,0 +1,123 @@
+ #card{
+     display: flex;
+     border-radius:6px;
+     font-family: "Montserrat";
+     height:26em;
+     width:22em;
+     background-color: white;
+     margin:50px 30px 10px 30px ;
+     box-shadow: 5px 10px 8px #88888836;
+ }
+
+ .test{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+
+ }
+
+ #card-btn{
+     width:100%;
+     border:1px transparent;
+     border-radius:6px;
+     cursor: pointer;
+     transition-duration:0.2s ;
+ }
+ #card-btn:hover{
+     opacity: 0.85;
+ }
+ 
+ 
+#cardBody{
+    margin-top: 21em;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left:5px;
+    margin-right:5px;
+    font-family: "Montserrat";
+}
+#loc-star{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#place{
+    font-size: 16px;
+}
+#address{
+    font-size: 12px;
+    margin-top:-5px;
+    opacity: 0.6;
+}
+#loc{
+    vertical-align: bottom;
+    font-size: 18px;
+    margin-left:-4px;
+   
+}
+ #priceTitle{    
+     background-color: white;
+     border-radius: 15px;  
+     float: right;
+     line-height: 3px;
+     width: 5em;
+ }
+ #star{
+     font-size: 14px;
+ }
+ #star-icon{
+     font-size: 16px;
+     vertical-align: bottom;
+     padding-right:5px ;
+     color: #0081B4;
+ }
+#book{
+    display: flex;
+    justify-content: center;
+}
+ #book-btn{
+     cursor: pointer;
+     background-color: #0081B4;
+     border:2px solid transparent;
+     padding:5px;
+     width: 28%;
+     font-size: 15px;
+     margin-top:-10px;
+     color: white;
+     border-radius: 5px;
+     font-weight: 600;
+     margin-bottom: 10px;
+ }
+
+
+ @media screen and (max-width:400px){
+     .test{
+         flex-direction: column;  
+     }
+     #cardBody{
+         margin-top: 20em;
+         font-size: 8px;
+       }
+       #price{
+           font-size: 8px;
+       }
+       #pm{
+         font-size: 7px;   
+     }
+       #address{
+         opacity: 0.4;
+         font-size: 8px;
+     }
+
+   
+    select{
+        font-size: 8px;
+    }
+    #searchBtn{
+        font-size: 8px;
+        width: fit-content;
+    }
+   }

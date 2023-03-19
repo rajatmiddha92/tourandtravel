@@ -1,0 +1,33 @@
+.align{
+    text-align: center;
+}
+.height{
+    line-height: 50px;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    height: 50px;
+}
+input{
+    width: 300px;
+}
+@media (min-width: 1024px) {
+    .align {
+        flex-direction: row-reverse;
+        padding: 2rem;
+    }
+
+    .input {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .input {
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+}

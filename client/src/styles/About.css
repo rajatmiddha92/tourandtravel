@@ -1,0 +1,117 @@
+#About {
+  text-align: center;
+}
+#islands-container {
+  display: flex;
+  justify-content: flex-end;
+}
+#islands-header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 60em;
+}
+#islands {
+  align-self: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 50px;
+}
+#search-bar {
+  background-color: transparent;
+  width: 24em;
+  border-radius: 25px;
+  padding-left: 20px;
+}
+#pckgs {
+  margin: 6em 0;
+}
+#dscvr-bnr {
+  display: flex;
+  justify-content: space-between;
+  margin: 6em 0;
+  background-color: rgba(0, 255, 255, 0.09);
+  padding: 4em;
+}
+#dbnr-txt {
+  text-align: start;
+  align-self: center;
+  line-height: 2em;
+  color: rgba(0, 0, 0, 0.795);
+}
+#contact-us-abt {
+  height: 3em;
+  width: 10em;
+  background-color: #0081b4;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+#d-img {
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    #dscvr-bnr {
+        display: grid;
+  }
+}
+#dbnr-txt > ul {
+  padding: 0;
+}
+#mail-listB {
+  background: url("https://images.unsplash.com/photo-1584184087921-b397a56c13c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFub3JhbWljfGVufDB8fDB8fA%3D%3D&w=1000&q=80")
+    no-repeat;
+  background-size: 100%;
+  padding: 70px;
+  margin-bottom: 6em;
+  color: rgba(0, 0, 0, 0.8);
+  width: 75em;
+  margin: 50px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  #mail-listB {
+    background: url("https://images.unsplash.com/photo-1584184087921-b397a56c13c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFub3JhbWljfGVufDB8fDB8fA%3D%3D&w=1000&q=80")
+      no-repeat;
+    float: none;
+    width: 100%;
+  }
+}
+#email-form {
+  background-color: white;
+  width: 15em;
+  height: 60%;
+  border: 2px solid transparent;
+  margin-right: -4px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  #ip-email {
+    margin-left: 0.1px;
+  }
+}
+#submit {
+  background-color: #0081b4;
+  border: 1px solid transparent;
+  height: 70%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  #mail-listB {
+    margin-left: 0.1px;
+  }
+}
+#ip-email {
+  height: 4em;
+}
